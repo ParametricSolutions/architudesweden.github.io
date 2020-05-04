@@ -10,12 +10,24 @@
   color: white;
 }
 
-.footer {
+.footer1 {
   height: 25px;
   bottom: 0px;
   width: 100%;
   background: #edf0ef;
   position: fixed;
+  background: #b6beb1;
+}
+
+.footer2 {
+  height: 145px;
+  bottom: 0px;
+  background: #edf0ef;
+  position: fixed;
+  left: 20px;
+  right: 20px;
+  border-top: 0.6px solid darkgray;
+
 }
 
 .body {
@@ -24,6 +36,7 @@
   margin: 0px;
   margin-bottom: 150px;
   overflow-y: scroll;
+  background: #edf0ef;
 }
 
 .title{
@@ -33,6 +46,14 @@
   margin: 0px;
   top: 15px;
   font-family: "Muli", bold, serif;
+}
+
+table, th, td {
+  border: 12px solid #edf0ef;
+}
+
+.cell:hover {
+  background: #edf0ef;
 }
 
 h1
