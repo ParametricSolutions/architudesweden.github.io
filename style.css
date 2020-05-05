@@ -50,10 +50,19 @@
 
 table, th, td {
   border: 12px solid #edf0ef;
+  font-size: 12px;
 }
 
-.cell:hover {
-  background: #edf0ef;
+tr{
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.cell{ 
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  font-family: "Muli", bold, serif;
+  background: white;
 }
 
 h1
@@ -73,12 +82,15 @@ h2 {
 }
 
 h3 {
-  color: gray;
-  font-size: 15px;
+  color: white;
+  font-size: 10px;
   font-family: "Muli", bold, serif;
   position: static;
-  top: 9px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
   right:140px;
+  background: lightgray;
 }
 
 h4 {
