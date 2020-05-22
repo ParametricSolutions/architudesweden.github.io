@@ -1,37 +1,33 @@
-.header {
-  height: 60px;
-  top: 0px;
+@import url(https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold);
+
+@font-face {font-family: "LuloCleanW01-OneBold";
+src: url("https://db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot");
+src: url("https://db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.eot?#iefix")
+format("embedded-opentype"),
+url("https://db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff2")
+format("woff2"),
+url("https://db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.woff")
+format("woff"),
+url("https://db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.ttf")
+format("truetype"),
+url("https://db.onlinewebfonts.com/t/39a2c7f346d5cfae7045aeb2fb50d9ad.svg#LuloCleanW01-OneBold")
+format("svg"); }
+
+header {
+  height: 70px;
   width: 100%;
   text-align: left;
-  background: #b6beb1;
-  font-size: 14px;
-  padding: 10px;
-  margin: 0px;
-  color: white;
-}
-
-.footer1 {
-  height: 25px;
-  bottom: 0px;
-  width: 100%;
-  background: #edf0ef;
+  background: white;
+  padding: 35px;
+  padding-left: 65px;
+  font-size: 15px;
+  color: darkgray;
+  font-family: "LuloCleanW01-OneBold", bold, serif;
   position: fixed;
-  background: #b6beb1;
 }
 
-.footer2 {
-  height: 145px;
-  bottom: 0px;
-  background: #edf0ef;
-  position: fixed;
-  left: 20px;
-  right: 20px;
-  border-top: 0.6px solid darkgray;
 
-}
-
-.body {
-  top: 70px;
+body {
   width: 100%;
   margin: 0px;
   margin-bottom: 150px;
@@ -40,12 +36,14 @@
 }
 
 .title{
-  position: static;
-  left: 50px;
-  font-size: 30px;
-  margin: 0px;
-  top: 15px;
-  font-family: "Muli", bold, serif;
+  right: 50px;
+  font-size: 25px;
+  font-family: "LuloCleanW01-OneBold", bold, serif;
+  text-align: right;
+  float: right;
+  position: fixed;
+  top: 20px;
+
 }
 
 table, th, td {
@@ -61,7 +59,8 @@ tr{
   text-align: center;
   font-size: 10px;
   color: white;
-  font-family: "Muli", bold, serif;
+  font-family: "Mukta";
+  font-weight: bold;
   background: white;
 }
 
@@ -69,8 +68,9 @@ h1
 {
   color: #CFA06C;
   font-size: 30px;
-  font-family: "Muli", bold, serif;
+  font-family: "Mukta", bold, serif;
     position: static;
+    font-weight: bold;
 }
 
 
@@ -78,7 +78,6 @@ h2 {
   color: gray;
   font-size: 14px;
   font-family: "Muli", bold, serif;
-  position: static;
 }
 
 h3 {
